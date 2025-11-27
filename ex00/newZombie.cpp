@@ -1,6 +1,6 @@
-#include "Zobie.hpp"
+#include "Zombie.hpp"
 
-Zobie* newZombie(const std::string& name) 
+Zombie* newZombie(const std::string& name) 
 {
-   return new Zobie(name);
+   return new Zombie(name);
 }

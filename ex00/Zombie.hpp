@@ -4,10 +4,10 @@
 #include <iostream>
 #include <string>
 
-class Zobie {
+class Zombie {
 public:
-	Zobie(const std::string& name);
-	~Zobie();
+	Zombie(const std::string& name);
+	~Zombie();
 
     void announce(void);
 
@@ -15,4 +15,7 @@ private:
     std::string _name;
 };
 
+Zombie* newZombie(const std::string& name);
+void randomChump(const std::string& name) ;
+ 
 #endif
