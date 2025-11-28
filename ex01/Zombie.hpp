@@ -17,5 +17,6 @@ private:
 
 void randomChump(const std::string& name);
 Zombie* newZombie(const std::string& name);
+Zombie* zombieHorde( int N, std::string name );
 
 #endif
