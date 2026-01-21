@@ -17,7 +17,7 @@ Projet de découverte de la **programmation orientée objet** en C++98, avec foc
 5. Sed is for losers : remplacement de texte dans un fichier
 6. Harl 2.0 & Harl Filter : automatisation et filtrage de messages
 
-## Technologies
+## Compilation & Execution
 - C++98 (standard obligatoire)
 - Compilation : `c++ -Wall -Wextra -Werror -std=c++98`
 - Respect des conventions et prévention des fuites mémoire
