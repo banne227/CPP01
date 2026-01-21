@@ -1,69 +1,24 @@
-C++ - Module 01
+# C++ Module 01 – Memory & Pointers
 
-Allocation mémoire, pointeurs, références et switch
-Version : 11.1
+Projet de découverte de la **programmation orientée objet** en C++98, avec focus sur la gestion de la mémoire, les pointeurs, les références et les structures de contrôle (`switch`).
 
-Résumé
+## Compétences développées
+- Conception et utilisation de **classes et méthodes**
+- Gestion **manuelle de la mémoire** (`new` / `delete`)
+- Manipulation de **pointeurs et références**
+- Lecture et écriture de fichiers, traitement de chaînes
+- Structuration du code selon la **forme canonique orthodoxe**
 
-Ce module initie à la programmation orientée objet avec C++98, en abordant :
+## Exercices réalisés
+1. Zombie : création et affichage d’objets sur pile et tas
+2. Zombie Horde : allocation dynamique d’une horde de zombies
+3. HI THIS IS BRAIN : pointeurs et références
+4. Unnecessary Violence : classes Weapon, HumanA et HumanB
+5. Sed is for losers : remplacement de texte dans un fichier
+6. Harl 2.0 & Harl Filter : automatisation et filtrage de messages
 
-Allocation mémoire (pile vs tas)
+## Technologies
+- C++98 (standard obligatoire)
+- Compilation : `c++ -Wall -Wextra -Werror -std=c++98`
+- Respect des conventions et prévention des fuites mémoire
 
-Pointeurs et références
-
-Classes et méthodes
-
-Instructions switch
-
-Les exercices permettent de comprendre la manipulation de la mémoire et les bases de la POO.
-
-Règles principales
-
-Compiler avec :
-
-c++ -Wall -Wextra -Werror -std=c++98
-
-
-Classes : UpperCamelCase, fichiers : ClassName.hpp / ClassName.cpp
-
-Chaque message affiché doit se terminer par un saut de ligne
-
-Interdit : bibliothèques externes, using namespace, friend, STL avant le module 08, fonctions C (printf, alloc, free)
-
-Éviter les fuites mémoire et respecter la forme canonique orthodoxe
-
-Exercices
-Ex00 – BraiiiiiiinnnzzzZ
-
-Créer une classe Zombie avec un attribut name et une méthode announce().
-Fonctions : newZombie(name) (tas) et randomChump(name) (pile).
-
-Ex01 – Moar brainz!
-
-Créer une horde de N zombies avec zombieHorde(int N, string name) et tester announce().
-
-Ex02 – HI THIS IS BRAIN
-
-Manipuler une string avec un pointeur et une référence, afficher adresses et valeurs.
-
-Ex03 – Unnecessary violence
-
-Créer les classes Weapon, HumanA et HumanB pour gérer armes et attaques :
-
-HumanA : arme obligatoire (référence)
-
-HumanB : arme optionnelle (pointeur)
-
-Ex04 – Sed is for losers
-
-Remplacer toutes les occurrences de s1 par s2 dans un fichier et créer <filename>.replace.
-Interdit : fonctions C pour fichiers et std::string::replace.
-
-Ex05 – Harl 2.0
-
-Classe Harl avec méthodes privées debug(), info(), warning(), error() et méthode complain(level) utilisant pointeurs sur fonctions membres.
-
-Ex06 – Harl filter
-
-Filtrer les messages selon le niveau choisi avec switch.
-Nom de l’exécutable : harlFilter.
